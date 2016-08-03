@@ -1,0 +1,5 @@
+learning_node/Warehouse/public/views/
+learning_node/Warehouse/public/stylesheets/
+learning_node/Warehouse/public/javascripts/
+.DS_Store
+node_modules/

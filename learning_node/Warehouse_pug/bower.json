@@ -1,0 +1,21 @@
+{
+  "name": "Warehouse",
+  "description": "",
+  "main": "",
+  "authors": [
+    "zhenyuanh <zhenyuanh@jumei.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/EdgarHz/MyLearning",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

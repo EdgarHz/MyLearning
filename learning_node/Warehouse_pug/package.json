@@ -1,0 +1,28 @@
+{
+  "name": "Warehouse",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --progress --colors --watch -d",
+    "run": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.8.0",
+    "pug": "^2.0.0-beta4",
+    "serve-favicon": "~2.3.0",
+    "webpack": "^1.13.1"
+  }
+}

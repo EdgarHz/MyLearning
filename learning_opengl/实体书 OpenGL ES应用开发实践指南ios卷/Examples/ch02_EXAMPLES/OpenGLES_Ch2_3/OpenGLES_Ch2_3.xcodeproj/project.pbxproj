@@ -162,6 +162,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
+				TargetAttributes = {
+					03D4E67E13EDEA78007A9B0E = {
+						DevelopmentTeam = 4QA4S2484R;
+					};
+				};
 			};
 			buildConfigurationList = 03D4E67913EDEA78007A9B0E /* Build configuration list for PBXProject "OpenGLES_Ch2_3" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -260,7 +265,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,7 +284,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,6 +295,8 @@
 		03D4E6A113EDEA78007A9B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4QA4S2484R;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLES_Ch2_3/OpenGLES_Ch2_3-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLES_Ch2_3/OpenGLES_Ch2_3-Info.plist";
@@ -301,6 +308,8 @@
 		03D4E6A213EDEA78007A9B0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4QA4S2484R;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLES_Ch2_3/OpenGLES_Ch2_3-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLES_Ch2_3/OpenGLES_Ch2_3-Info.plist";

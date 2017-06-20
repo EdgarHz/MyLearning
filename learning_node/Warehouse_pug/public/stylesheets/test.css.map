@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,MAAM,EAAE,CAAC;EAET,OAAE;IACA,MAAM,EAAE,CAAC;;IAGT,UAAE;MACA,UAAU,EAAE,IAAI;MAEhB,YAAC;QACC,KAAK,EAAE,IAAI;QACX,eAAe,EAAE,IAAI;QAErB,kBAAO;UACL,KAAK,EAAE,KAAK",
+"sources": ["../../node_modules/node-sass-middleware/test/test.sass"],
+"names": [],
+"file": "test.css"
+}
